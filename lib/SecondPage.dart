@@ -21,6 +21,8 @@ class SecondPage extends StatefulWidget {
     return Scaffold(
     appBar: AppBar(
       title: Text("This is the second page"),
+      backgroundColor: Colors.purple,
+      foregroundColor: Colors.deepPurpleAccent,
     ),
     body: Center(
        child: Text("Welcome to the second page!"),
